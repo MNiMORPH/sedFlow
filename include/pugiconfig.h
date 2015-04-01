@@ -1,0 +1,86 @@
+/**
+ * pugixml parser - version 1.2
+ * --------------------------------------------------------
+ *   Copyright (C) 2014 Swiss Federal Research Institute WSL (http://www.wsl.ch)
+ *   Developed by F.U.M. Heimann
+ *   Published by the Swiss Federal Research Institute WSL
+ *   
+ *   This program is free software: you can redistribute it and/or modify it
+ *   under the terms of the GNU General Public License version 3
+ *   as published by the Free Software Foundation.
+ *   
+ *   This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ *   without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+ *   See the GNU General Public License for more details.
+ *   
+ *   You should have received a copy of the GNU General Public License
+ *   along with this program.  If not, see http://www.gnu.org/licenses
+ *   
+ *   This software is part of the model sedFlow,
+ *   which is intended for the simulation of bedload dynamics in mountain streams.
+ *   
+ *   For details on sedFlow see http://www.wsl.ch/sedFlow
+ *
+ * This library is distributed under the MIT License. See notice at the end
+ * of this file.
+ *
+ * This work is based on the pugxml parser, which is:
+ * Copyright (C) 2003, by Kristen Wegner (kristen@tima.net)
+ */
+
+#ifndef HEADER_PUGICONFIG_HPP
+#define HEADER_PUGICONFIG_HPP
+
+// Uncomment this to enable wchar_t mode
+// #define PUGIXML_WCHAR_MODE
+
+// Uncomment this to disable XPath
+// #define PUGIXML_NO_XPATH
+
+// Uncomment this to disable STL
+// #define PUGIXML_NO_STL
+
+// Uncomment this to disable exceptions
+// #define PUGIXML_NO_EXCEPTIONS
+
+// Set this to control attributes for public classes/functions, i.e.:
+// #define PUGIXML_API __declspec(dllexport) // to export all public symbols from DLL
+// #define PUGIXML_CLASS __declspec(dllimport) // to import all classes from DLL
+// #define PUGIXML_FUNCTION __fastcall // to set calling conventions to all public functions to fastcall
+// In absence of PUGIXML_CLASS/PUGIXML_FUNCTION definitions PUGIXML_API is used instead
+
+// Uncomment this to switch to header-only version
+// #define PUGIXML_HEADER_ONLY
+// #include "pugixml.cpp"
+
+// Tune these constants to adjust memory-related behavior
+// #define PUGIXML_MEMORY_PAGE_SIZE 32768
+// #define PUGIXML_MEMORY_OUTPUT_STACK 10240
+// #define PUGIXML_MEMORY_XPATH_PAGE_SIZE 4096
+
+#endif
+
+/**
+ * Copyright (c) 2006-2012 Arseny Kapoulkine
+ *
+ * Permission is hereby granted, free of charge, to any person
+ * obtaining a copy of this software and associated documentation
+ * files (the "Software"), to deal in the Software without
+ * restriction, including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following
+ * conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ * OTHER DEALINGS IN THE SOFTWARE.
+ */
